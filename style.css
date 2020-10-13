@@ -1,0 +1,36 @@
+header {
+    border: 20px dashed white;
+    display: block;
+    width: 100%;
+    height: 218px;
+    padding: 50px;
+}
+footer {
+    border: 20px solid blue;
+    height: 218px;
+    margin-top: 15px;
+}
+div {
+    margin-top: 15px;
+}
+body {
+    background-color: yellow;
+}
+#Home {
+    border: 20px dotted red;
+}
+.Menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width:250px ) {
+    .Menu {
+        flex-direction: column;
+    }
+}
+@media (max-width: 249px) {
+    .Menu {
+        flex-direction: row;
+    }
+}
